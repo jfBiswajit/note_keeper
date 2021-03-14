@@ -44,3 +44,5 @@
 44) Desperately -> নিদারুণভাবে
 45) Vulgarity -> অশ্লীলতা
 46) Torn -> ছেঁড়া
+47) Applaud -> সাধুবাদ
+48) Eyesore  -> চক্ষুশূল
