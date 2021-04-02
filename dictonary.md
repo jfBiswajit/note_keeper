@@ -47,3 +47,4 @@
 47) Applaud -> সাধুবাদ
 48) Eyesore  -> চক্ষুশূল
 49) Throughout -> জুড়ে
+50) Drowsy -> তন্দ্রাগত
