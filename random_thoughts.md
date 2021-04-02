@@ -215,3 +215,5 @@ Coding is fascinating. Every time I dig deeper, there's more to learn.
 
 
 your heart is precious, keep it PURE!!!
+
+My heart goes out to all backend and infrastructure engineers.
