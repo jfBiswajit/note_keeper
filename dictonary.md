@@ -46,3 +46,4 @@
 46) Torn -> ছেঁড়া
 47) Applaud -> সাধুবাদ
 48) Eyesore  -> চক্ষুশূল
+49) Throughout -> জুড়ে
