@@ -48,3 +48,5 @@
 48) Eyesore  -> চক্ষুশূল
 49) Throughout -> জুড়ে
 50) Drowsy -> তন্দ্রাগত
+51) Rusty -> মরিচা
+52) Pace -> গতি
