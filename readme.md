@@ -54,3 +54,7 @@
 54) Attires -> বেশভূষা
 55) Cherished -> লালিত
 56) Neato -> ঝরঝরে
+57) Ruthless -> নির্মম
+58) Admit -> মানা
+59) Jerk -> ঝাঁকুনি
+60) Evolved -> বিবর্তিত  
