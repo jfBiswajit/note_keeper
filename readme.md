@@ -59,3 +59,6 @@
 59) Jerk -> ঝাঁকুনি
 60) Evolved -> বিবর্তিত  
 61) Outrageous -> আপত্তিকর
+62) Tragic -> করুণ 
+63) Vain -> নিরর্থক
+64) Optimistic -> আশাবাদী
