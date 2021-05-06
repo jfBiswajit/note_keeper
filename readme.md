@@ -62,3 +62,4 @@
 62) Tragic -> করুণ 
 63) Vain -> নিরর্থক
 64) Optimistic -> আশাবাদী
+65) Aesthetic -> নান্দনিক
