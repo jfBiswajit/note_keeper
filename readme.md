@@ -222,3 +222,5 @@ My heart goes out to all backend and infrastructure engineers.
 Confidence is not "They will like me". Confidence is I'll be fine if they don't."
 
 “Experience tells you what to do; confidence allows you to do it ~Stan Smith
+
+It’s absolutely wild that being good at interviewing for the developer job and being good at the actual job are two completely separate skills.
