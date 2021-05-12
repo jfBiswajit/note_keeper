@@ -63,3 +63,7 @@
 63) Vain -> নিরর্থক
 64) Optimistic -> আশাবাদী
 65) Aesthetic -> নান্দনিক
+66) Dispatch -> প্রেরণ
+67) Testifies -> সাক্ষ্য দেয়
+68) Perception -> উপলব্ধি
+69) Phrase -> বাক্যাংশ
