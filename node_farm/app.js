@@ -1,16 +1,6 @@
 const http = require('http');
 const fs = require('fs');
 
-const products = ['alo', 'patal', 'moris', 'kumra'];
-
-const data = products.map((el, i) => {
-  if (el == 'alo') {
-    return true;
-  }
-});
-
-console.log(data);
-
 // This is a synchronous code which is declare as top level code and execute only once
 const apiData = fs.readFileSync('data/products.json', 'utf-8');
 
