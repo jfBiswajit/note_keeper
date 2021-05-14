@@ -32,6 +32,16 @@ We use callback that doesn't mean automatically make it asynchronous. It only wo
   console.log(modifiedArr); // [9, 12, 15, 18]
 ```
 
+**Array.join** Creates and returns a new string by concatenating all of the elements in an array separated by commas or a specified separator string.
+
+```JavaScript
+  const elements = ['Fire', 'Air', 'Water'];
+
+  console.log(elements.join()); // expected output: "Fire,Air,Water"
+  console.log(elements.join('')); // expected output: "FireAirWater"
+  console.log(elements.join('-')); // expected output: "Fire-Air-Water"
+```
+
 **Destructuring assignment** Unpack values from arrays, or properties from objects, into distinct variables.
 
 ```JavaScript

@@ -3,16 +3,60 @@ const fs = require('fs');
 
 // This is a synchronous code which is declare as top level code and execute only once
 const apiData = fs.readFileSync('data/products.json', 'utf-8');
+const htmlProducts = fs.readFileSync('templates/products.html', 'utf-8');
+const htmlCards = fs.readFileSync('templates/cards.html', 'utf-8');
+const htmlDetails = fs.readFileSync('templates/details.html', 'utf-8');
+const dataProducts = fs.readFileSync('data/products.json', 'utf-8');
+
+
+const parseHtml = (htmlCards, product) => {
+  let output = htmlCards.replace(/{%PRODUCTNAME%}/g, product.productName);
+  output = output.replace(/{%IMAGE%}/g, product.image);
+  output = output.replace(/{%QUANTITY%}/g, product.quantity);
+  output = output.replace(/{%PRICE%}/g, product.price); 
+  output = output.replace(/{%ID%}/g, product.id); 
+   output = output.replace(/{%DESCRIPTION%}/g, product.description);
+  
+  if (!product.organic) output = output.replace(/{%NOT_ORGANIC%}/g, 'not-organic');
+  
+  return output;
+};
 
 // This code will execute eachtime a route hits
 const server = http.createServer((req, res) => {
-  if (req.url == '/home' || req.url == '/') {
+  const baseURL = 'http://' + req.headers.host + '/';
+  const request = new URL(req.url, baseURL);
+  const path = request.pathname;
+  const id = request.searchParams.get('id');
+  
+  // Home
+  if (path == '/home' || path == '/') {
     res.end('This is home page.');
-  } else if (req.url == '/api') {
+
+    // Api
+  } else if (path == '/api') {
     res.writeHead(200, {
       'Content-Type': 'Application/Json',
     });
     res.end(apiData);
+
+    // Products List
+  } else if (path == '/products') {
+    res.writeHead(200, { 'Content-Type': 'Text/Html' });
+    const objProducts = JSON.parse(dataProducts);
+    const output = objProducts.map((product) => parseHtml(htmlCards, product)).join('');
+
+    res.end(htmlProducts.replace('{%PRODUCT_CARDS%}', output));
+    
+    // Product details
+  } else if (path == '/details') {
+    res.writeHead(200, { 'Content-Type': 'Text/Html' });
+    const objProducts = JSON.parse(dataProducts)[id];
+    const output = parseHtml(htmlDetails, objProducts);
+
+    res.end(output);
+
+    // Page not found
   } else {
     res.writeHead(404);
     res.end('Page not found!');

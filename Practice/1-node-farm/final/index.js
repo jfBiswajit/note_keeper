@@ -72,6 +72,7 @@ const server = http.createServer((req, res) => {
     });
     const product = dataObj[query.id];
     const output = replaceTemplate(tempProduct, product);
+    console.log();
     res.end(output);
 
     // API
