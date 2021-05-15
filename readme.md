@@ -226,3 +226,7 @@ Confidence is not "They will like me". Confidence is I'll be fine if they don't.
 It’s absolutely wild that being good at interviewing for the developer job and being good at the actual job are two completely separate skills.
 
  Clothes are just Clothes they don’t change what you are.
+ 
+ I am beyond thrilled to announce that I have accepted an offer from Facebook and will be joining the Diversity Recruiting team as a Recruiting Manager for Mobile.
+
+I want to thank Kenny Hill and Maureen C. for taking such great care of me during the entire process. I am humbled beyond words for the opportunity to work among such authentic people as Donnie Small and Tatiana Brasil. I am truly looking forward to starting my FB journey next week and really excited to start getting to know the team!
