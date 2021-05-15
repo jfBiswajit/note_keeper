@@ -24,8 +24,8 @@ Npm stands for node package manager which is a command line interface automatica
 
 **Versioning** ^1.18.11 (Major.Minor.Patch)
   - Symbols (^, ~, *) is specifies which updates we accepts
-    - ^ Accepts patche an minor releases
-    - ~ Accepts only patch releases
+    - '^' Accepts patche an minor releases
+    - '~' Accepts only patch releases
     - '*' Accepts all the versions
   - **Major** Whenever there is some significant change being introduced. Backward-incompatible change to a software package.
   - **Minor** Minor version numbers change when a new, minor feature is introduced or when a set of smaller features is rolled out.
