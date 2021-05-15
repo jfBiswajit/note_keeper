@@ -22,6 +22,12 @@ We use callback that doesn't mean automatically make it asynchronous. It only wo
 ### NPM
 Npm stands for node package manager which is a command line interface automatically comes with node.js use to install and manage open-source packages.
 
+**Versioning** ^1.18.11 (Major version.Minor Version.Patch)
+  - Version symbol is specifies which updates we accepts (^Accepts patche an minor releases) (~Accepts only patch releases) (*Accepts all the versions). 
+  - Which is only bumped up whenever it is a new huge release which can have breaking changes
+  - Includes some new feature but doesn't include breacking changes
+  - Patch version is only intended to fix bugs
+
 ### Basic Js
 **Array.map()** Take an array and apply some procedure to its elements so that you get a new array with modified elements.
 
