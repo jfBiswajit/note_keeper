@@ -1,5 +1,6 @@
 const http = require('http');
 const fs = require('fs');
+const parseHtml = require('./modules/parseHtml');
 
 // This is a synchronous code which is declare as top level code and execute only once
 const apiData = fs.readFileSync('data/products.json', 'utf-8');
@@ -7,20 +8,6 @@ const htmlProducts = fs.readFileSync('templates/products.html', 'utf-8');
 const htmlCards = fs.readFileSync('templates/cards.html', 'utf-8');
 const htmlDetails = fs.readFileSync('templates/details.html', 'utf-8');
 const dataProducts = fs.readFileSync('data/products.json', 'utf-8');
-
-
-const parseHtml = (htmlCards, product) => {
-  let output = htmlCards.replace(/{%PRODUCTNAME%}/g, product.productName);
-  output = output.replace(/{%IMAGE%}/g, product.image);
-  output = output.replace(/{%QUANTITY%}/g, product.quantity);
-  output = output.replace(/{%PRICE%}/g, product.price); 
-  output = output.replace(/{%ID%}/g, product.id); 
-   output = output.replace(/{%DESCRIPTION%}/g, product.description);
-  
-  if (!product.organic) output = output.replace(/{%NOT_ORGANIC%}/g, 'not-organic');
-  
-  return output;
-};
 
 // This code will execute eachtime a route hits
 const server = http.createServer((req, res) => {
