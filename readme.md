@@ -19,6 +19,9 @@ Node js is a javascript runtime build on google V8 javscript engine.
 
 We use callback that doesn't mean automatically make it asynchronous. It only works this way for some functions in the node API. Callback != Asynchonous.
 
+### NPM
+Npm stands for node package manager which is a command line interface automatically comes with node.js use to install and manage open-source packages.
+
 ### Basic Js
 **Array.map()** Take an array and apply some procedure to its elements so that you get a new array with modified elements.
 

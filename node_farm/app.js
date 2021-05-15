@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
   const request = new URL(req.url, baseURL);
   const path = request.pathname;
   const id = request.searchParams.get('id');
-  
+
   // Home
   if (path == '/home' || path == '/') {
     res.end('This is home page.');
@@ -31,10 +31,12 @@ const server = http.createServer((req, res) => {
   } else if (path == '/products') {
     res.writeHead(200, { 'Content-Type': 'Text/Html' });
     const objProducts = JSON.parse(dataProducts);
-    const output = objProducts.map((product) => parseHtml(htmlCards, product)).join('');
+    const output = objProducts
+      .map((product) => parseHtml(htmlCards, product))
+      .join('');
 
     res.end(htmlProducts.replace('{%PRODUCT_CARDS%}', output));
-    
+
     // Product details
   } else if (path == '/details') {
     res.writeHead(200, { 'Content-Type': 'Text/Html' });
