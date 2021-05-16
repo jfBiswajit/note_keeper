@@ -38,7 +38,7 @@ Node runtime has serveral dependecies to working properly. The most important on
     - **Event-loop** is responsible for executing call-backs and netwok I/O. 
     - **Thread pool** is responsible for file access or compression. Libuv is completely written on C++ not JavaScript. And V8 also written in C++ besids JavaScript.
 
-!["Node Architecture"]("./photos/node_architecture.png")
+![Node Architecture](./photos/node_architecture.png)
 
 ### Basic Js
 **Array.map()** Take an array and apply some procedure to its elements so that you get a new array with modified elements.
