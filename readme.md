@@ -31,6 +31,15 @@ Npm stands for node package manager which is a command line interface automatica
   - **Minor** Minor version numbers change when a new, minor feature is introduced or when a set of smaller features is rolled out.
   -  **Patch** This is normally for small bug-fixes
 
+### Node Architecture
+Node runtime has serveral dependecies to working properly. The most important one is V8 engine and Libuv.
+  - **V8** engine converts javascript code to machine code
+  - **Libuv** is an opensource library with a strong foucs asynchronous I/O. This layer Node gives access to underlying computer OS, file system, networking and more. Beside that Libuv also implement that two extreamly important features of Node.js Which are the invent loop and the thread pool.
+    - **Event-loop** is responsible for executing call-backs and netwok I/O. 
+    - **Thread pool** is responsible for file access or compression. Libuv is completely written on C++ not JavaScript. And V8 also written in C++ besids JavaScript.
+
+!["Node Architecture"]("./photos/node_architecture.png")
+
 ### Basic Js
 **Array.map()** Take an array and apply some procedure to its elements so that you get a new array with modified elements.
 
