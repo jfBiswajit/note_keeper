@@ -40,6 +40,29 @@ Node runtime has serveral dependecies to working properly. The most important on
 
 ![Node Architecture](./photos/node_architecture.png)
 
+### Node Process and Threads
+When we use Node on a computer that means there is a node process runnign on that computer. And a process is just a program in execution. Node js is a C++ program which will therefore start a process when it's runing. In node we actually have access to a **process variable**. In that process Node runs in a so called single thread. And thread is basically just a sequence of instruction. The most important thing is that Node runs in just one thread. Which makes it easy to block node application. This is the unique feature that brings Node to the table.
+
+**What happens when you starts a node application** When a program initialized
+  - All the top level code is executed (Code that not inside any call-back function)
+  - All the module that your app required
+  - Register all call-back
+  - Event loop finally starts runing
+
+![Node Thread](./photos/node_threads.png)
+
+**Event loop** The heart of the node architecture. Where most of the work is done. Event loop make asynchronous programming possible in Node. Some tasks are actually too heavy they are too expensive to be executed in the event loop. Becouse they block the single thread. Thats why threads pool comes in. Thread pool gives four additional threads that are completely seperated form the main single thread. We can configure it up to 128. Event loop automatically upload heavy task to the therad pool
+
+Node build around callback functions. Functions that are called as soon as some work is finished some time in the future. Its works the way becouse not is event driven architecture.
+  - Receive events
+  - Call their callback functions
+  - And uploads the most expensive task to the thread pool.
+
+**How to not block the event loop** 
+  - Don't use the sync version of functions (Fs, Crypto, Zlib modules).
+  - Be careful with JSON in very large object. It might take too long to parse or stringify.
+  - Don't use to complex regular expression.
+
 ### Basic Js
 **Array.map()** Take an array and apply some procedure to its elements so that you get a new array with modified elements.
 
