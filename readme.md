@@ -63,6 +63,15 @@ Node build around callback functions. Functions that are called as soon as some 
   - Be careful with JSON in very large object. It might take too long to parse or stringify.
   - Don't use to complex regular expression.
 
+### Node Process and Threads
+Most of the node core module like HTTP, File system, Timers are build on event-driven architecture. We can also use this advantage to our own code. In Node there are certain object called event emitters that emit named events as soon as someting important happens in the app. Like request hitting server, a timer expireing, file finishing to read. This event the we can picked up by the event listener that we developer set up which will fire off callback functions that are attached to each listener.
+  - We have event emitter
+  - Event listeners (That will react to emmited event by calling callback function)
+
+Event emiiter logic is called the observer pattern.
+
+![Node Thread](./photos/event_driven_architecture.png)
+
 ### Basic Js
 **Array.map()** Take an array and apply some procedure to its elements so that you get a new array with modified elements.
 
