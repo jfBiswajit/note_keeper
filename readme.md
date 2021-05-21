@@ -232,3 +232,13 @@ It’s absolutely wild that being good at interviewing for the developer job and
 I want to thank Kenny Hill and Maureen C. for taking such great care of me during the entire process. I am humbled beyond words for the opportunity to work among such authentic people as Donnie Small and Tatiana Brasil. I am truly looking forward to starting my FB journey next week and really excited to start getting to know the team!
 
 Don't search for happyness. Happyness lies in small things!
+
+I will die one day like everyone else did
+
+What men like is feminity. Not feebleness.
+
+We should always be happy in our life because we don't know when we will be silent forever ❤
+
+Stop worrying. Nobody is going to kill you!
+
+For god sake!! Keep your mouth shut.
