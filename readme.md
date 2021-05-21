@@ -155,3 +155,12 @@ A module is any file or directory in the node_modules directory that can be load
 ![Returning](./photos/returning.png)
 
 ![Caching](./photos/caching.png)
+
+### API
+Application programming interface. A piece of software that can be used by another piece of software, in order to allow application to talk to each other.
+
+**Rest** Representational state transfer basicall a way of building web API. And normally return JSON as API response.
+
+![REST API structure](./photos/rest_structure.png)
+
+**JSON** is a very light weight data interchange format.
