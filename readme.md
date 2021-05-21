@@ -67,3 +67,6 @@
 67) Testifies -> সাক্ষ্য দেয়
 68) Perception -> উপলব্ধি
 69) Phrase -> বাক্যাংশ
+70) Adversity -> প্রতিকূলতা
+71) Propaganda -> আপত্তি
+72) Mimic -> নকল করা
