@@ -72,4 +72,18 @@ app.patch('/api/v1/tours/:id', (req, res) => {
   );
 });
 
+app.delete('/api/v1/tours/:id', (req, res) => {
+  const id = req.params.id;
+  const tour = tours.find((el) => el.id === parseInt(id));
+  
+  if (!tour) {
+    return res.status(404).json({
+      success: false,
+      message: 'Tour not found!',
+    });
+  }
+    
+  res.status(204).json();
+});
+
 app.listen(8000);
