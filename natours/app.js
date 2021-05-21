@@ -1,11 +1,20 @@
+const http = require('http');
 const express = require('express');
+const fs = require('fs');
 
 const app = express();
 
-app.get('/', (req, res) => {
-  res.status(200).json({user: 'Biswajit'})
-});
+let tours = fs.readFileSync(`${__dirname}/data/tours-simple.json`);
+tours = JSON.parse(tours);
 
-app.listen(8000, () => {
-  console.log('Server started at http://127.0.0.1:8000');
+app.get('/api/v1/tours', (req, res) => {
+  res.status(200).json(
+    {
+      success: true,
+      result: tours.length,
+      data: tours
+    }
+  );
 })
+
+app.listen(8000);
