@@ -1,15 +1,16 @@
-const EventEmiiter = require('events');
+const http = require('http');
 
-class Sales extends EventEmiiter {
-  constructor() {
-    super();
-  }
-}
+const server = http.createServer();
 
-const myEmitter = new Sales();
+server.on('request', (req, res) => {
+  console.log('Request received!');
+  res.end('Request successfull!')
+})
 
-myEmitter.on('newNotifications', (notifiCount) => {
-  console.log(`You have ${notifiCount} new notifications!`);
+server.on('close', () => {
+  console.log('Server closed!');
+})
+
+server.listen(8000, '127.0.0.1', () => {
+  console.log('Server started at http://127.0.0.1:8000');
 });
-
-myEmitter.emit('newNotifications', 10);

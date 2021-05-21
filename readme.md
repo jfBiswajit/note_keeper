@@ -1,3 +1,40 @@
+### Basic Js
+**Array.map()** Take an array and apply some procedure to its elements so that you get a new array with modified elements.
+
+```JavaScript
+  let arr = [3, 4, 5, 6];
+
+  let modifiedArr = arr.map(function(element){
+      return element *3;
+  });
+
+  console.log(modifiedArr); // [9, 12, 15, 18]
+```
+
+**Array.join** Creates and returns a new string by concatenating all of the elements in an array separated by commas or a specified separator string.
+
+```JavaScript
+  const elements = ['Fire', 'Air', 'Water'];
+
+  console.log(elements.join()); // expected output: "Fire,Air,Water"
+  console.log(elements.join('')); // expected output: "FireAirWater"
+  console.log(elements.join('-')); // expected output: "Fire-Air-Water"
+```
+
+**Destructuring assignment** Unpack values from arrays, or properties from objects, into distinct variables.
+
+```JavaScript
+  let a, b, rest;
+  [a, b] = [10, 20];
+
+  console.log(a); // expected output: 10
+  console.log(b); // expected output: 20
+
+  [a, b, ...rest] = [10, 20, 30, 40, 50];
+
+  console.log(rest); // expected output: Array [30,40,50]
+```
+
 ### What is node.js
 Node js is a javascript runtime build on google V8 javscript engine.
 
@@ -93,39 +130,13 @@ myEmitter.on('newNotifications', (notifiCount) => {
 myEmitter.emit('newNotifications', 10);
 ```
 
-### Basic Js
-**Array.map()** Take an array and apply some procedure to its elements so that you get a new array with modified elements.
+### Streams
+Used to process (read and write) data piece by piece (chunks), without completing the whole read or write operation, and therefore without keeping all the data in memory.
+  - Perfect for large volume for data like video, audio.
+  - More efficient data processing in terms of memory (no need to keep all data in memory) and time (we don't have to wait until all the data is available)
 
-```JavaScript
-  let arr = [3, 4, 5, 6];
+**Types of streams**
 
-  let modifiedArr = arr.map(function(element){
-      return element *3;
-  });
+![Steams](./photos/steams.png)
 
-  console.log(modifiedArr); // [9, 12, 15, 18]
-```
-
-**Array.join** Creates and returns a new string by concatenating all of the elements in an array separated by commas or a specified separator string.
-
-```JavaScript
-  const elements = ['Fire', 'Air', 'Water'];
-
-  console.log(elements.join()); // expected output: "Fire,Air,Water"
-  console.log(elements.join('')); // expected output: "FireAirWater"
-  console.log(elements.join('-')); // expected output: "Fire-Air-Water"
-```
-
-**Destructuring assignment** Unpack values from arrays, or properties from objects, into distinct variables.
-
-```JavaScript
-  let a, b, rest;
-  [a, b] = [10, 20];
-
-  console.log(a); // expected output: 10
-  console.log(b); // expected output: 20
-
-  [a, b, ...rest] = [10, 20, 30, 40, 50];
-
-  console.log(rest); // expected output: Array [30,40,50]
-```
+Note: Read and write stream are two more important steams. Streams are intances of the EventEmitter class.
