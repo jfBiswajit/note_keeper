@@ -140,3 +140,18 @@ Used to process (read and write) data piece by piece (chunks), without completin
 ![Steams](./photos/steams.png)
 
 Note: Read and write stream are two more important steams. Streams are intances of the EventEmitter class.
+
+### Module
+A module is any file or directory in the node_modules directory that can be loaded by the Node. js require() function. There are 5 steps of Node module.
+
+![Module system](./photos/module_system.png)
+
+![Module resolving and loading](./photos/resolving_and_loading.png)
+
+![Wrapping](./photos/wrapping.png)
+
+![Execution](./photos/execution.png)
+
+![Returning](./photos/returning.png)
+
+![Caching](./photos/caching.png)
