@@ -72,6 +72,27 @@ Event emiiter logic is called the observer pattern.
 
 ![Node Thread](./photos/event_driven_architecture.png)
 
+### Events
+It always a best practice to create a new class and extends event class to working with Node events.
+
+```JavaScript
+const EventEmiiter = require('events');
+
+class Sales extends EventEmiiter {
+  constructor() {
+    super();
+  }
+}
+
+const myEmitter = new Sales();
+
+myEmitter.on('newNotifications', (notifiCount) => {
+  console.log(`You have ${notifiCount} new notifications!`);
+});
+
+myEmitter.emit('newNotifications', 10);
+```
+
 ### Basic Js
 **Array.map()** Take an array and apply some procedure to its elements so that you get a new array with modified elements.
 
