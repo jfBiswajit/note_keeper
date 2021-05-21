@@ -34,4 +34,21 @@ app.post('/api/v1/tours', (req, res) => {
   );
 });
 
+app.get('/api/v1/tours/:id', (req, res) => {
+  const id = req.params.id;
+  const tour = tours.find((el) => el.id === parseInt(id));
+  
+  if (!tour) {
+    return res.status(404).json({
+      success: false,
+      message: 'Tour not found!',
+    });
+  }
+  
+  res.status(200).json({
+    success: true,
+    data: tour,
+  });
+});
+
 app.listen(8000);
