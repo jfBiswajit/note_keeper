@@ -242,3 +242,5 @@ We should always be happy in our life because we don't know when we will be sile
 Stop worrying. Nobody is going to kill you!
 
 For god sake!! Keep your mouth shut.
+
+Every coin has 2 aspects.
