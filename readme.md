@@ -70,3 +70,4 @@
 70) Adversity -> প্রতিকূলতা
 71) Propaganda -> আপত্তি
 72) Mimic -> নকল করা
+73) Sanctity -> পবিত্রতা
