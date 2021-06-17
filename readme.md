@@ -71,3 +71,5 @@
 71) Propaganda -> আপত্তি
 72) Mimic -> নকল করা
 73) Sanctity -> পবিত্রতা
+74) Abandon -> পরিত্যাগ করা
+75) Edible -> ভোজ্য
