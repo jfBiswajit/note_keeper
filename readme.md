@@ -244,3 +244,7 @@ Stop worrying. Nobody is going to kill you!
 For god sake!! Keep your mouth shut.
 
 Every coin has 2 aspects.
+
+There's a difference between loving someone & not being able to live without them.
+
+You compare yourself with the world and try to be someone else rather than being your authentic self.
