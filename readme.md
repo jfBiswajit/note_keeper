@@ -73,3 +73,4 @@
 73) Sanctity -> পবিত্রতা
 74) Abandon -> পরিত্যাগ করা
 75) Edible -> ভোজ্য
+76) Stipulated -> নির্ধারিত
