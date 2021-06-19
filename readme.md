@@ -76,3 +76,4 @@
 76) Stipulated -> নির্ধারিত
 77) Uncanny -> অলৌকিক ধরনের
 78) Bragging -> দাম্ভিকতা
+79) Immense -> অপরিসীম
