@@ -82,3 +82,5 @@
 82) Obscene -> অশ্লীল
 83) Insist -> জেদ করা
 84) Urged -> আহ্বান জানান 
+85) Competency -> দক্ষতা
+86) Concurrency -> সম্মতি
