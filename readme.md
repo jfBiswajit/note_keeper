@@ -84,3 +84,5 @@
 84) Urged -> আহ্বান জানান 
 85) Competency -> দক্ষতা
 86) Concurrency -> সম্মতি
+87) Altruistic -> পরোপকারী
+88) Heartfelt -> আন্তরিক
