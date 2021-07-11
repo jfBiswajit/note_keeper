@@ -86,3 +86,8 @@
 86) Concurrency -> সম্মতি
 87) Altruistic -> পরোপকারী
 88) Heartfelt -> আন্তরিক
+89) Bloated -> স্ফীত
+90) Repentance -> অনুশোচনা
+91) Endure -> সহ্য করা
+92) Crave -> আকাঙ্ক্ষা 
+93) Appetite -> ক্ষুধা
