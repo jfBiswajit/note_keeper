@@ -100,3 +100,10 @@
 100) Drastically -> মারাত্মকভাবে
 101) Bogus -> বাজে
 102) Drastic -> কঠোর   
+103) Panting -> ঊর্ধ্বশ্বাস
+104) Sigh -> দীর্ঘশ্বাস
+105) Acquire -> অর্জন
+106) Accomplish -> সম্পাদন করা
+107) Consent -> সম্মতি
+108) Conquest -> দখল
+109) Simultaneously -> একসাথে
