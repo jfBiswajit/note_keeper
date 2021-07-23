@@ -107,3 +107,7 @@
 107) Consent -> সম্মতি
 108) Conquest -> দখল
 109) Simultaneously -> একসাথে
+110) Vivid -> প্রাণবন্ত
+111) Punchy -> জোরালো
+112) Wickedly -> দুষ্টুভাবে
+113) Ramifications -> বিভ্রান্তি
