@@ -111,3 +111,7 @@
 111) Punchy -> জোরালো
 112) Wickedly -> দুষ্টুভাবে
 113) Ramifications -> বিভ্রান্তি
+114) Heiress -> উত্তরাধিকারী
+115) Cruelty -> নিষ্ঠুরতা
+116) Devastated -> বিধ্বস্ত
+117) Bouquet -> তোড়া
