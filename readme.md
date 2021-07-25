@@ -262,3 +262,21 @@ You compare yourself with the world and try to be someone else rather than being
 
 ###
 The goal of social media shouldn't be to collect likes from strangers. It should be to share your insights and learn from the insights of others.
+
+Nobody is ever too busy. If they truly care they’ll make time.
+
+If you aren’t happy single, you won’t be happy taken. Happiness comes from within, not from people.
+
+Cheating is a choice, not a mistake. Loyalty is a responsibility, not a choice.
+
+People don’t always need advice. Sometimes all they really need is a hand to hold, an ear to listen, and a heart to understand them.
+
+Choosing your partner is also choosing your future.
+
+Stop expecting loyalty from people who can’t even give you honesty.
+
+Never give up on something you really want. It’s difficult to wait, but worse to regret.
+
+Every year teaches two things: No one is permanent. Life has to move on.
+
+Humans are born to be real not to be perfect
