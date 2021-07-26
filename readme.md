@@ -280,3 +280,7 @@ Never give up on something you really want. It’s difficult to wait, but worse 
 Every year teaches two things: No one is permanent. Life has to move on.
 
 Humans are born to be real not to be perfect
+
+Good decisions come from experience. Experience comes from bad decisions.
+
+Start doing your own thing in your own way and avoid copying others of whatever they are doing.
