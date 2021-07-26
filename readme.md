@@ -115,3 +115,5 @@
 115) Cruelty -> নিষ্ঠুরতা
 116) Devastated -> বিধ্বস্ত
 117) Bouquet -> তোড়া
+118) Sanctum -> অভয়ারণ্য
+119) Lunatic -> পাগল
