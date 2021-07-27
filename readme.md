@@ -77,7 +77,7 @@
 77) Uncanny -> অলৌকিক ধরনের
 78) Bragging -> দাম্ভিকতা
 79) Immense -> অপরিসীম
-80) Avid -> অভীষ্ট
+80) Avid -> লোভী
 81) Reluctant -> অনিচ্ছুক
 82) Obscene -> অশ্লীল
 83) Insist -> জেদ করা
@@ -117,3 +117,6 @@
 117) Bouquet -> তোড়া
 118) Sanctum -> অভয়ারণ্য
 119) Lunatic -> পাগল
+120) Inertia -> জড়তা
+121) Attuned -> সংমিশ্রিত
+122) Cliche -> ক্লিচ
