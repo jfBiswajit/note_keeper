@@ -284,3 +284,7 @@ Humans are born to be real not to be perfect
 Good decisions come from experience. Experience comes from bad decisions.
 
 Start doing your own thing in your own way and avoid copying others of whatever they are doing.
+
+If you are brave enough to say goodbye, life will reward you with a new Hello.
+
+You will never win if you never begin.
