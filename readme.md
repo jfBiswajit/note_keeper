@@ -288,3 +288,5 @@ Start doing your own thing in your own way and avoid copying others of whatever 
 If you are brave enough to say goodbye, life will reward you with a new Hello.
 
 You will never win if you never begin.
+
+Grateful for where I am because I remember where I was.
