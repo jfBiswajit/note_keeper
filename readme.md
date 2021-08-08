@@ -119,4 +119,5 @@
 119) Lunatic -> পাগল
 120) Inertia -> জড়তা
 121) Attuned -> সংমিশ্রিত
-122) Cliche -> ক্লিচ
+122) Shield -> ঢাল
+123) Decisive -> চূড়ান্ত
